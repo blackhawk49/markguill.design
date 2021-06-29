@@ -1,0 +1,30 @@
+.CSFooter {
+    background: rgba(242, 242, 242, 1);
+  }
+  
+  .CSFooter div.wrapper {
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1070px;
+    grid-gap: 1rem;
+  }
+
+  .CSFooter div.wrapper div a {
+    display: inline-block;
+  }
+
+  .CSFooter div.wrapper div h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .CSFooter div.wrapper div a {
+    font-size: 1.25rem;
+  }
+
+  .CSFooter div.wrapper div:last-child {
+    text-align: right;
+    border-left: 1px solid rgba(130, 130, 130, 1);
+  }

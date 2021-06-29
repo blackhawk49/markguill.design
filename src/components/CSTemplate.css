@@ -1,0 +1,167 @@
+
+section {
+  margin: 40px 0;
+  opacity: 0;
+  animation: LoadingAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Head {
+  margin: 40px 0 0;
+  padding: 20px;
+  background: rgba(239, 239, 239, 1);
+  height: 467px;
+  text-align: center;
+}
+
+.Head h1, .Head h2 {
+  color: rgba(79, 79, 79, 1);
+  padding: 0;
+  font-weight: bold;
+}
+
+.Head img {
+  width: 100%;
+  max-width: 1070px;
+}
+
+.Head h2 {
+  margin: 10px 0 20px;
+  font-weight: 400;
+}
+
+.Head figure {
+  padding: 1rem;
+}
+
+.Head figure figcaption {
+  display: none;
+}
+
+.Content {
+  margin: 0 auto;
+  max-width: 1070px;
+  padding-bottom: 20px;
+}
+
+.Content h3 {
+  padding: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.Content p {
+  padding: 0 0 24px;
+  line-height: 1.75rem;
+}
+
+.Content span {
+  font-weight: bold;
+}
+
+section div.Content:nth-child(2) {
+  margin-top: 125px;
+}
+
+.ExampleImages {
+  margin: 0 0 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.ExampleImages div h3 {
+  text-align: left;
+}
+
+.ExampleImages div {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  max-width: 1070px;
+  grid-gap: 1rem;
+}
+
+.ExampleImages figure {
+  padding: 1rem;
+}
+
+
+.ExampleImages img {
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(65,65,65,0.25);
+}
+
+.mobile div {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.mobile img {
+  box-shadow: none;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Overrides */
+
+xdiv.convertly {
+  background: rgba(46, 65, 110, 1);
+}
+
+xdiv.adtech {
+  background: rgba(52, 152, 134, 1);
+}
+
+xdiv.ecomm {
+  background: rgba(74, 74, 74, 1);
+}
+
+xdiv.blog {
+  background: rgba(98, 110, 144, 1);
+}
+
+xdiv.helpcenter {
+  background: rgba(175, 92, 108, 1);
+}
+
+.Head img {
+  box-shadow: 0px 0px 10px 0px rgba(65,65,65,0.25);
+}
+
+@media (max-width: 1140px) {
+
+  .Head {
+    height: auto;
+  }
+  
+  section div.Content:nth-child(2) {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1079px) {
+
+  .ExampleImages div {
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  }
+}
+
+@media (max-width: 590px) {
+
+  .Head h2 {
+    margin: 10px 0 20px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .Head h2 {
+    font-size: 1.25rem;
+  }
+
+}

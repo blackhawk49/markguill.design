@@ -1,0 +1,76 @@
+.AboutMe div.Head {
+  padding: 20px;
+  height: auto;
+}
+
+section.AboutMe div.Content:nth-child(2) {
+  margin-top: 40px;
+}
+
+.Header-Content {
+  display: grid;
+  grid-template-columns: 2fr 300px;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  justify-items: self-end;
+  align-items: start;
+  max-width: 1070px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: LoadingAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Header-Content div {
+  padding-top: 40px;
+}
+
+.Header-Content h1, .Header-Content h2 {
+  text-align: left;
+}
+
+.Header-Content h1 {
+  font-size: 2.5rem;
+}
+
+.Header-Content h2 {
+  font-size: 2rem;
+}
+
+.Header-Content figure {
+  max-width: 300px;
+  padding: 0;
+}
+
+@media (max-width: 880px) {
+
+  .Header-Content h1 {
+    font-size: 2rem;
+  }
+
+  .Header-Content h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  .Header-Content {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .Header-Content div {
+    padding-top: 20px;
+  }
+
+  .Header-Content h1, .Header-Content h2 {
+    text-align: center;
+  }
+
+  .Header-Content figure {
+    max-width: 80%;
+  }
+
+}
