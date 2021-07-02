@@ -24,6 +24,10 @@
     margin-top: -17px;
     max-width: 540px;
   }
+
+  .WorkExContentContainer figure a {
+    display: block;
+  }
   
   .WorkExContentContainer figure img {
     width: 100%;

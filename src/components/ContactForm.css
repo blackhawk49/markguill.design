@@ -1,0 +1,34 @@
+
+form {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+fieldset {
+  display: grid;
+  border: none;
+  margin: 24px 0;
+}
+
+input[type="text"], input[type="email"] {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border: 1px solid rgba(250, 73, 19, 1);
+  outline: 1px solid rgba(250, 73, 19, 1);
+}
+
+textarea {
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+}
+
+.ContactForm .default:focus {
+  border: 3px solid rgb(250, 73, 19);
+}
+
+

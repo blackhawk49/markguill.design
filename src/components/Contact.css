@@ -1,0 +1,16 @@
+section.Contact {
+  margin-bottom: 100px;
+}
+
+.ContactMe div.Head {
+  padding: 20px;
+  height: auto;
+}
+
+.ContactMe div.Head div {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+

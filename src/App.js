@@ -12,6 +12,7 @@ import EcommTemplate from './components/EcommTemplate';
 import Blog from './components/Blog';
 import HelpCenter from './components/HelpCenter';
 import AdTech from './components/AdTech';
+import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
             <Route exact path='/' component={Home} />
             <Route path='/work' component={Work} />
             <Route path='/about' component={AboutMe} />
+            <Route path='/contact' component={Contact} />
             <Route path='/create-site-wizard' component={SiteWizard} />
             <Route path='/convertly-site-editor' component={SiteEditor} />
             <Route path='/adtech' component={AdTech} />

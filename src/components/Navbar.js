@@ -8,7 +8,7 @@ const Navbar = ({ siteTitle }) => (
     <ul className="NavbarContainer">
       <li><NavLink to="/work" className="work">My Work</NavLink></li>
       <li><NavLink to="/about" className="about">About Me</NavLink></li>
-      <li><a href="mailto:mguill@gmailcom?Subject=Yo" className="contact">Let's Chat</a></li>
+      <li><NavLink to="/contact" className="contact">Let's Chat</NavLink></li>
     </ul>
   </nav>
   

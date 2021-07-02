@@ -12,14 +12,20 @@
   animation: LoadingAnimation 1s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+.HeroContent h1 {
+  font-size: 2rem;
+}
+
 .HeroContent p:nth-child(2) {
   font-size: 3rem;
   font-weight: bold;
 }
 
 .HeroContent p:nth-child(3) {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  padding: 8px 0 24px;
+  line-height: 2.25rem;
 }
 
 .HeroContent p:nth-child(4) {
@@ -51,10 +57,6 @@
 
   .HeroContent p:nth-child(2) {
     font-size: 3rem;
-  }
-
-  .HeroContent p:nth-child(3) {
-    font-size: 1.5rem;
   }
 
 }
